@@ -1,4 +1,4 @@
-var socket = io.connect()
+var socket = io.connect('http://54.250.126.97:3000/');
 $(function() {
   var $ok = $('#ok')
     , $message = $('#message')
