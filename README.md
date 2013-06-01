@@ -36,6 +36,8 @@ $ node server.js
 
 ## AWS の Socket.IO サーバ(チューター向け)
 
+`54.250.126.97:3000` で complete2 が起動しています。
+
 http://54.250.126.97:3000/socket.io/socket.io.js を読み込んで
 http://54.250.126.97:3000/ に connect することで、 AWS のサーバに接続出来ます。
 
