@@ -1,6 +1,6 @@
+var socket = io.connect()
 $(function() {
-  var socket = io.connect()
-    , $ok = $('#ok')
+  var $ok = $('#ok')
     , $message = $('#message')
     , $messages = $('#messages')
     ;
