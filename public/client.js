@@ -13,7 +13,6 @@ $(function() {
 
   socket.on('message', function(data) {
     console.log('received:', data);
-    var $li = $('<li>').text(data);
-    $messages.append($li);
+    $('<li>', { text: data }).appendTo($messages);
   });
 });
