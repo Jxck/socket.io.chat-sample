@@ -1,0 +1,17 @@
+{
+  "name": "socket.io.chat-sample",
+  "version": "0.0.0",
+  "description": "simple chat sample with socket.io",
+  "main": "server.js",
+  "dependencies": {
+    "express": "3.0.6",
+    "socket.io": "0.9.14"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": "",
+  "author": "Jxck",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
