@@ -48,3 +48,8 @@ socket.emit('message', 'hello world'); // メッセージの送信
 
 socket.on('message', callback); // ブロードキャストメッセージの受信(自分のも含みます)
 ```
+
+## サーバがない人
+
+mac なら SimpleHTTPServer とか使えますが、
+一応、ローカル(file://) で index.html を開いても動くことは確認しました。
